@@ -1,0 +1,15 @@
+<h1>Heroes Center</h1>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let hero of heroes">
+      <td>{{ hero.id }}</td>
+      <td>{{ hero.name }}</td>
+    </tr>
+  </tbody>
+</table>
